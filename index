@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Libro Web</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="turn.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="book">
+
+    <div class="page cover">
+        <img src="cover.jpg" alt="Copertina">
+    </div>
+
+    <div class="page">
+        <h2>Pagina 1</h2>
+        <p>Questo è il testo della prima pagina.</p>
+    </div>
+
+    <div class="page">
+        <h2>Pagina 2</h2>
+        <p>Qui puoi inserire altro testo del libro.</p>
+    </div>
+
+    <div class="page">
+        <h2>Pagina 3</h2>
+        <p>Ogni div rappresenta una pagina.</p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
